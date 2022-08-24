@@ -1,8 +1,8 @@
-package com.example.polls.controller;
+package com.ccinterest.main.controller;
 
-import com.example.polls.entity.User;
-import com.example.polls.mapper.UserMapper;
-import com.example.polls.service.UserService;
+import com.ccinterest.main.entity.User;
+import com.ccinterest.main.mapper.UserMapper;
+import com.ccinterest.main.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.example.polls.mapper;
+package com.ccinterest.main.mapper;
 
-import com.example.polls.entity.User;
+import com.ccinterest.main.entity.User;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

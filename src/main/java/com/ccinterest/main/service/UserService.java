@@ -1,7 +1,7 @@
-package com.example.polls.service;
+package com.ccinterest.main.service;
 
-import com.example.polls.entity.User;
-import com.example.polls.mapper.UserMapper;
+import com.ccinterest.main.entity.User;
+import com.ccinterest.main.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

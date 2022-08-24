@@ -1,4 +1,4 @@
-package com.example.polls.controller.dto;
+package com.ccinterest.main.controller.dto;
 
 import java.awt.*;
 

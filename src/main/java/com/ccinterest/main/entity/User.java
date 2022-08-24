@@ -1,4 +1,4 @@
-package com.example.polls.entity;
+package com.ccinterest.main.entity;
 import lombok.Data;
 
 @Data

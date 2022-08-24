@@ -1,10 +1,10 @@
-package com.example.polls;
+package com.ccinterest.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HellospringbootApplicationTests {
+class CcInterestApplicationTests {
 
 	@Test
 	void contextLoads() {
