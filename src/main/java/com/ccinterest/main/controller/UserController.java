@@ -32,4 +32,11 @@ public class UserController {
     public Integer delete(@PathVariable Integer id) {
         return userMapper.deleteById(id);
     }
+
+    // 分页查询
+    @GetMapping("/page")
+    public List<User> findPage(@RequestParam Integer pageNum, @RequestParam Integer pageSize) {
+        pageNum = (pageNum - 1) * pageSize;
+        return userMapper.selectPage(pageNum, pageSize);
+    }
 }

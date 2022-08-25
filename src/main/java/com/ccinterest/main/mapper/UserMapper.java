@@ -18,4 +18,7 @@ public interface UserMapper {
     // 删除
     @Delete("delete from cci_user where id = #{id}")
     Integer deleteById(@Param("id") Integer id);
+
+    @Select("select * from cci_user limit #{pageNum}, #{pageSize}")
+    List<User> selectPage(Integer pageNum, Integer pageSize);
 }
